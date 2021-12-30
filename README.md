@@ -34,17 +34,17 @@ The application uses JWT authentication system (access token and refresh token).
    - React.js (Hooks) + Redux Toolkit
    - MUI
    
- NPM's
- - Axios 0.24.0
- - Dotenv 10.0.0
- - emoji-picker-react 3.4.8
- - react-cookie 4.1.1
- - react-device-detect 2.1.2
- - react-redux 7.2.6
- - react-router-dom 6.0.2
- - sass 1.43.4
- - timeago.js 4.0.2
- - redux 4.1.2
+    NPM's
+    - Axios 0.24.0
+    - Dotenv 10.0.0
+    - emoji-picker-react 3.4.8
+    - react-cookie 4.1.1
+    - react-device-detect 2.1.2
+    - react-redux 7.2.6
+    - react-router-dom 6.0.2
+    - sass 1.43.4
+    - timeago.js 4.0.2
+    - redux 4.1.2
   
 - Backend
    - Node.js + Express.js
