@@ -70,7 +70,9 @@ The application uses JWT authentication system (access token and refresh token).
     - multer-storage-cloudinary 4.0.0
     - uniqid 5.4.0
 
-   
+ ## Installation
+ 
+ Create **.env** file based on **.env-example** file
 
    
 
