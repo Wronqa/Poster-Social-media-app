@@ -72,7 +72,8 @@ The application uses JWT authentication system (access token and refresh token).
 
  ## Installation
  
- Create **.env** file based on **.env-example** file
+ #### 1. Clone the repo
+ #### 2. Create **.env** file in api and client directory a fill it based on **.env-example** file
 
    
 
