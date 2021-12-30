@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-let refreshPending = false ///
+let refreshPending = false 
 
 const makeRefreshRequest = async () => {
   try {
