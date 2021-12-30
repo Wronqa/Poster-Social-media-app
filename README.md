@@ -29,10 +29,13 @@ The application uses JWT authentication system (access token and refresh token).
 ## Technologies
 
 - Frontend
+
    - HTML, SASS, Java Script 
    - React.js (Hooks) + Redux Toolkit
    - NPM's (MUI, Axios, react-cookie, timeago.js, react-device-detect, dotenv, emoji-picker-react)
+   -
 - Backend
+
    - Node.js + Express
    - Mongoose
    - JWT
