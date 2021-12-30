@@ -54,8 +54,21 @@ The application uses JWT authentication system (access token and refresh token).
    - JWT
    - Cloudinary API
 
-NPM's
--
+    NPM's
+    - bcrypt 5.0.1
+    - cloudinary 1.27.1
+    - cookie-parser 1.4.6
+    - dotenv 10.0.0
+    - express 4.17.1
+    - express-validator 6.13.0
+    - helmet 4.6.0
+    - jsonwebtoken 8.5.1
+    - jwt-decode 3.1.2
+    - mongoose 6.0.12
+    - morgan 1.10.0
+    - multer 1.4.4
+    - multer-storage-cloudinary 4.0.0
+    - uniqid 5.4.0
 
    
 
