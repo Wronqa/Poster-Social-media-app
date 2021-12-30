@@ -1,4 +1,4 @@
-# Poster---Social-media-app
+# Poster - Social media app
 
 Poster is a fully functional social media aplication.
 
@@ -36,7 +36,7 @@ The application uses JWT authentication system (access token and refresh token).
    -
 - Backend
 
-   - Node.js + Express
+   - Node.js + Express.js
    - MongoDB
    - JWT
    - Cloudinary API
