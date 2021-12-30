@@ -37,10 +37,10 @@ The application uses JWT authentication system (access token and refresh token).
 - Backend
 
    - Node.js + Express
-   - Mongoose
+   - MongoDB
    - JWT
    - Cloudinary API
-   - NPM's (bcrypt, cookie-parser, dotenv, express-validator, helmet, jsonwebtoken, jwt-decode, morgan, multer, uniqid)
+   - NPM's (bcrypt, mongoose, cookie-parser, dotenv, express-validator, helmet, jsonwebtoken, jwt-decode, morgan, multer, uniqid)
 
 
 
