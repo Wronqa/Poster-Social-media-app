@@ -1,0 +1,50 @@
+.modalContainer {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.596);
+
+  .modalWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .modalBox {
+      display: flex;
+      flex-direction: column;
+      width: 400px;
+      height: 80px;
+      background-color: var(--main-color);
+      border-radius: 5px;
+      background-color: Ivory;
+      padding: 20px;
+
+      .modalBoxTop {
+        text-align: center;
+        height: 50%;
+        .modalBoxTopText {
+          font-size: 1.1rem;
+        }
+      }
+      .modalBoxBottom {
+        margin-top: 10px;
+        text-align: center;
+        .modalBoxBottomButton {
+          margin: 0px 30px;
+          width: 100px;
+          padding: 7px;
+          background-color: var(--main-color);
+          font-weight: 500;
+          color: white;
+          border-radius: 5px;
+          font-size: 0.8rem;
+          border: none;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

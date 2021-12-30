@@ -1,0 +1,151 @@
+.registerContainer {
+  height: 100vh;
+  width: 100vw;
+  .registerWrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #505050;
+    font-weight: 500;
+    .registerLogo {
+      color: var(--main-color);
+      position: absolute;
+      top: 20px;
+      left: 30px;
+      font-size: 1.5rem;
+      font-weight: 500;
+      letter-spacing: 1px;
+
+      @media only screen and (max-width: 480px) {
+        top: 10px;
+        left: 15px;
+      }
+    }
+    .registerLoginLink {
+      color: var(--main-color);
+      display: flex;
+      align-items: center;
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      font-size: 1.5rem;
+      font-weight: 500;
+      letter-spacing: 1px;
+      cursor: pointer;
+
+      @media only screen and (max-width: 480px) {
+        top: 10px;
+        right: 15px;
+      }
+    }
+    .registerBox {
+      width: 30%;
+      height: 450px;
+
+      @media only screen and (max-width: 980px) {
+        width: 40%;
+      }
+      @media only screen and (max-width: 480px) {
+        width: 85%;
+        height: 550px;
+      }
+
+      .registerBoxForm {
+        height: 100%;
+        justify-content: space-around;
+        display: flex;
+        flex-direction: column;
+        .registerBoxFormInfoSection {
+          color: var(--main-color);
+          .registerBoxFormTitle {
+            font-size: 1.7rem;
+            margin-bottom: 5px;
+
+            @media only screen and (max-width: 480px) {
+              font-size: 1.5rem;
+            }
+          }
+          .registerBoxFormSubtitle {
+            color: gray;
+            font-weight: 500;
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+
+            @media only screen and (max-width: 480px) {
+              font-size: 0.9rem;
+            }
+          }
+        }
+        .registerBoxFormHoriontalItems {
+          display: flex;
+          justify-content: space-between;
+
+          @media only screen and (max-width: 480px) {
+            flex-wrap: wrap;
+          }
+
+          .registerBoxFormItem {
+            width: 49%;
+
+            @media only screen and (max-width: 480px) {
+              width: 100%;
+              margin-top: 10px;
+            }
+          }
+        }
+        .registerBoxFormItem {
+          display: flex;
+          flex-direction: column;
+          @media only screen and (max-width: 480px) {
+            margin-top: 10px;
+          }
+          .registerBoxFormLabel {
+            margin-bottom: 10px;
+            color: gray;
+
+            @media only screen and (max-width: 480px) {
+              font-size: 0.9rem;
+            }
+          }
+          .registerBoxFormInput {
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid gray;
+            background: transparent;
+
+            @media only screen and (max-width: 480px) {
+              padding: 10px;
+            }
+
+            &:focus {
+              background-color: white;
+            }
+          }
+        }
+        .registerBoxFormButton {
+          margin-top: 20px;
+          height: 45px;
+          background-color: var(--main-color);
+          border: none;
+          border-radius: 5px;
+          color: white;
+          font-weight: 500;
+
+          @media only screen and (max-width: 480px) {
+            margin-top: 30px;
+          }
+        }
+      }
+    }
+    .loginBoxError {
+      height: 10px;
+      font-size: 1rem;
+      color: red;
+      text-align: center;
+      margin-top: 15px;
+      font-weight: 300;
+    }
+  }
+}

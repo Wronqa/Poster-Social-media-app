@@ -1,0 +1,62 @@
+.profileEditBoxContainer {
+  display: flex;
+
+  .profileEditBoxWrapper {
+    .profileEditBoxSubtitle {
+      margin-top: 40px;
+      font-size: 1.3rem;
+    }
+    .profileEditBoxForm {
+      position: relative;
+      height: 300px;
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      font-weight: 300;
+
+      .profileEditBoxFormItem {
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .profileEditBoxFormItemLabel {
+          font-size: 1rem;
+        }
+        .profileEditBoxFormItemInput {
+          padding: 5px;
+          border-radius: 2px;
+          border: 1px solid rgba(0, 0, 0, 0.5);
+          background: white;
+          margin-left: 30px;
+          width: 180px;
+        }
+      }
+      .profileEditBoxFormItemSelect {
+        padding: 5px;
+        border-radius: 2px;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        background: white;
+        margin-left: 30px;
+        width: 192px;
+      }
+      .profileEditBoxFormButton {
+        position: absolute;
+        bottom: 25px;
+        width: 30%;
+        padding: 10px;
+        background-color: var(--main-color);
+        font-weight: 500;
+        color: white;
+        border-radius: 5px;
+        font-size: 0.8rem;
+        border: none;
+        margin-top: 70px;
+      }
+      .profileEditBoxSuccess {
+        color: green;
+        margin-top: 40px;
+      }
+    }
+  }
+}

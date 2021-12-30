@@ -1,0 +1,89 @@
+.shareContainer {
+  width: 100%;
+  margin-top: 20px;
+
+  .shareWrapper {
+    padding: 10px 25px;
+
+    .shareTop {
+      display: flex;
+      align-items: center;
+
+      .shareTopInput {
+        margin-left: 20px;
+        border: none;
+        padding: 5px;
+        width: 70%;
+
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+    .shareHr {
+      margin: 20px;
+      border: 0;
+      border-top: 2px solid var(--main-color);
+      opacity: 0.3;
+    }
+    .shareImageSection {
+      position: relative;
+      padding: 0 20px 10px 20px;
+      .shareImg {
+        width: 100%;
+        object-fit: cover;
+        max-height: 500px;
+      }
+      .shareCloseButton {
+        position: absolute;
+        top: -10px;
+        right: -5px;
+        color: var(--main-color);
+
+        cursor: pointer;
+      }
+    }
+    .shareBottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .shareBottomItems {
+        display: flex;
+        margin-left: 20px;
+        align-items: center;
+        .shareBottomItem {
+          margin-right: 20px;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          margin-left: 3px;
+
+          .shareBottomItemIcon {
+            color: var(--main-color);
+          }
+          .shareBottomItemText {
+            font-size: 0.8rem;
+            font-weight: 500;
+            margin-left: 5px;
+          }
+        }
+      }
+      .shareBottomButton {
+        justify-self: flex-end;
+        margin-right: 20px;
+        height: 27px;
+        width: 60px;
+        background-color: var(--main-color);
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-weight: 500;
+        cursor: pointer;
+      }
+    }
+  }
+  .shareEmojiPickerHidden {
+    display: none;
+  }
+}

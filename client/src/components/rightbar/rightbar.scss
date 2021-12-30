@@ -1,0 +1,27 @@
+.rightbarContainer {
+  height: 100%;
+  flex: 2;
+
+  @media only screen and (max-width: 980px) {
+    display: none;
+  }
+  .rightbarWrapper {
+    padding: 70px 10px;
+    .rightbarTitle {
+      font-size: 1.3rem;
+      font-weight: 500;
+      color: var(--main-color);
+    }
+    .rightbarFriendsList {
+      height: 330px;
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+    }
+    .rightbarFooter {
+      color: var(--main-color);
+      cursor: pointer;
+      font-weight: 500;
+    }
+  }
+}

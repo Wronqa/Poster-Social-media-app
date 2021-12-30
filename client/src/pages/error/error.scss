@@ -1,0 +1,24 @@
+.errorPageContainer {
+  width: 100vw;
+  height: 100vh;
+
+  .errorPageWrapper {
+    .errorPageContent {
+      height: calc(100vh - 80px);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .errorPageTitle {
+        font-size: 20rem;
+        color: var(--main-color);
+        font-weight: bold;
+      }
+      .errorPageText {
+        font-size: 3rem;
+        color: var(--main-color);
+      }
+    }
+  }
+}

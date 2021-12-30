@@ -1,0 +1,73 @@
+.leftbarContainer {
+  flex: 2;
+  height: 100%;
+
+  @media only screen and (max-width: 980px) {
+    display: none;
+  }
+
+  .leftbarWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 10px;
+    .leftbarTitle {
+      font-size: 1.3rem;
+      font-weight: 500;
+      color: var(--main-color);
+    }
+    .leftbarTop {
+      margin-top: 30px;
+      .leftbarTopUserSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .leftbarTopUserSectionImg {
+          width: 90px;
+          height: 90px;
+          border-radius: 50%;
+        }
+        .leftbarTopUserSectionUsername {
+          font-weight: 500;
+          margin-top: 10px;
+          font-size: 1.2rem;
+        }
+        .leftbarTopUserSectionCity {
+          font-size: 0.9rem;
+        }
+      }
+    }
+    .leftbarBottom {
+      width: 65%;
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+
+      .leftbarBottomItem {
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .leftbarBottomItemText {
+          font-weight: 400;
+          text-decoration: inherit;
+        }
+        .leftbarBottomItemValue {
+          font-weight: 500;
+        }
+      }
+      .leftBarBottomButton {
+        width: 100%;
+        margin-top: 20px;
+        padding: 5px 10px;
+        background-color: var(--main-color);
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-weight: 500;
+        cursor: pointer;
+      }
+    }
+  }
+}
