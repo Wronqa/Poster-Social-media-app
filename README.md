@@ -34,6 +34,8 @@ The application uses JWT authentication system (access token and refresh token).
    - React.js (Hooks) + Redux Toolkit
    - MUI
    
+   
+   
     NPM's
     - Axios 0.24.0
     - Dotenv 10.0.0
