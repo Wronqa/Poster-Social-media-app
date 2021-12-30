@@ -78,6 +78,10 @@ The application uses JWT authentication system (access token and refresh token).
  ```bash
 npm install
 ```
+#### 4. Enter the api directory and install all depedencies
+ ```bash
+npm install
+```
 
    
 
