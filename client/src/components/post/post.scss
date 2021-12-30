@@ -1,0 +1,91 @@
+.postContainer {
+  .postWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+    .postTop {
+      display: flex;
+      align-items: center;
+      .postTopImg {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+      }
+      .postTopInfo {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .postTopInfoLeft {
+          display: flex;
+          align-items: center;
+          .postTopInfoLeftUsername {
+            margin-left: 10px;
+            font-weight: 500;
+            font-size: 0.9rem;
+          }
+          .postTopInfoLeftTime {
+            margin-left: 10px;
+            font-size: 0.8rem;
+          }
+        }
+        .postTopInfoRight {
+          .postTopInfoRightDeleteButton {
+            margin-right: 20px;
+            opacity: 0.3;
+          }
+        }
+      }
+    }
+    .postCenter {
+      margin-top: 15px;
+      display: flex;
+      font-size: 0.9rem;
+    }
+    .postImage {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      width: 95%;
+      max-height: 500px;
+      object-fit: contain;
+    }
+    .postBottom {
+      margin-top: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .postBottomLeft {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        color: crimson;
+        .postBottomLeftLikes {
+          margin-left: 10px;
+          font-weight: 500;
+        }
+      }
+      .postBottomRight {
+        cursor: pointer;
+        color: var(--main-color);
+        font-size: 0.9rem;
+        margin-right: 30px;
+      }
+    }
+    .postBottomCommentsSection {
+      .postBottomCommentsSectionHr {
+        text-align: center;
+        background-color: rgba(220, 20, 60, 0.411);
+        height: 1px;
+        width: 90%;
+        border: none;
+        margin: auto;
+      }
+    }
+    .hidden {
+      display: none;
+    }
+  }
+}

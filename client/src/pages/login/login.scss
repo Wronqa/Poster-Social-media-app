@@ -1,0 +1,110 @@
+.loginContainer {
+  height: 100vh;
+  width: 100vw;
+  .loginWrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #505050;
+    font-weight: 500;
+    .loginLogo {
+      color: var(--main-color);
+      position: absolute;
+      top: 20px;
+      left: 30px;
+      font-size: 1.5rem;
+      font-weight: 500;
+      letter-spacing: 1px;
+    }
+    .loginRegisterLink {
+      color: var(--main-color);
+      ///color: darkblue;
+      display: flex;
+      align-items: center;
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      font-size: 1.5rem;
+      font-weight: 500;
+      letter-spacing: 1px;
+      cursor: pointer;
+    }
+    .loginBox {
+      width: 25%;
+      height: 370px;
+
+      @media only screen and (max-width: 980px) {
+        width: 40%;
+      }
+      @media only screen and (max-width: 480px) {
+        width: 80%;
+      }
+
+      .loginBoxForm {
+        height: 100%;
+        justify-content: space-around;
+        display: flex;
+        flex-direction: column;
+        .loginBoxFormInfoSection {
+          color: var(--main-color);
+          .loginBoxFormTitle {
+            font-size: 1.7rem;
+            margin-bottom: 5px;
+          }
+          .loginBoxFormSubtitle {
+            color: gray;
+            font-weight: 500;
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+          }
+        }
+
+        .loginBoxFormItem {
+          display: flex;
+          flex-direction: column;
+          .loginBoxFormLabel {
+            margin-bottom: 10px;
+            color: gray;
+          }
+          .loginBoxFormInput {
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid gray;
+            background: transparent;
+
+            &:focus {
+              background-color: white;
+            }
+          }
+        }
+        .loginBoxFormButton {
+          height: 45px;
+          margin-top: 20px;
+          background-color: var(--main-color);
+          border: none;
+          border-radius: 5px;
+          color: white;
+          font-weight: 500;
+        }
+        .loginboxFormHelp {
+          font-size: 0.8rem;
+          text-align: center;
+          color: black;
+          opacity: 0.5;
+          cursor: pointer;
+          margin-top: 5px;
+        }
+      }
+    }
+  }
+  .loginBoxError {
+    height: 10px;
+    font-size: 1rem;
+    color: red;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 300;
+  }
+}

@@ -1,0 +1,116 @@
+.profileContainer {
+  width: 100vw;
+  height: 100vh;
+
+  .profileWrapper {
+    display: flex;
+    flex-direction: column;
+    .profileTop {
+      z-index: 0;
+      position: relative;
+
+      .profileTopPictureSection {
+        width: 200px;
+        height: 200px;
+        position: relative;
+
+        .profileTopChangePhotoSection {
+          position: absolute;
+          bottom: 0px;
+          left: 150px;
+          font-size: 2rem;
+          cursor: pointer;
+          color: var(--main-color);
+          .profileTopChangePhotoSectionButton {
+            font-size: 2rem;
+          }
+        }
+      }
+
+      .profileTopUserInfo {
+        position: absolute;
+        bottom: -65px;
+        left: 320px;
+
+        @media only screen and (max-width: 980px) {
+          bottom: -160px;
+          width: 150px;
+          left: 0;
+          right: 0;
+          margin: auto;
+          text-align: center;
+        }
+
+        .profileTopUsername {
+          font-weight: bold;
+          font-size: 1.8rem;
+        }
+      }
+      .profileTopUserFriendsInfo {
+        display: flex;
+        position: absolute;
+        bottom: -60px;
+        right: 10%;
+
+        @media only screen and (max-width: 980px) {
+          bottom: -230px;
+          width: 100%;
+          left: 0;
+          right: 0;
+          justify-content: center;
+          margin: auto;
+        }
+
+        .profileTopUserFriendsInfoItem {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          margin: 0px 20px;
+
+          .profileTopUserFriendsInfoItemText {
+            font-weight: 500;
+            font-size: 1.3rem;
+
+            @media only screen and (max-width: 480px) {
+              font-size: 1rem;
+            }
+          }
+          .profileTopUserFriendsInfoItemValue {
+            font-size: 1.1rem;
+            font-weight: 400;
+
+            @media only screen and (max-width: 480px) {
+              font-size: 0.9rem;
+            }
+          }
+          .profileTopFollowUser {
+            margin-right: 10px;
+            background-color: var(--main-color);
+            color: white;
+            display: flex;
+            align-items: center;
+            border-radius: 5px;
+            border: none;
+            padding: 1px 15px;
+
+            .profileTopFollowUserText {
+              font-size: 0.9rem;
+              font-weight: 500;
+              cursor: pointer;
+
+              @media only screen and (max-width: 480px) {
+                display: none;
+              }
+              margin: 5px;
+            }
+          }
+        }
+      }
+    }
+    .profileBottom {
+      margin-top: 100px;
+      display: flex;
+    }
+  }
+}
