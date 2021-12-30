@@ -20,7 +20,11 @@ Poster is a fully functional social media aplication.
 - Followings list
    - View all followings
 
+
+
 The application uses JWT authentication system (access token and refresh token). Tokens are stored in HttpOnly secure cookies.   
+
+
 
 ## Technologies
 
@@ -32,7 +36,7 @@ The application uses JWT authentication system (access token and refresh token).
    - Mongoose
    - Cloudinary
 
-# NPM's
+### NPM's
 
 
 
