@@ -83,7 +83,7 @@ The application uses JWT authentication system (access token and refresh token).
  
  #### 1. Install [Node.js](https://nodejs.org/en/) and [GIT](https://git-scm.com/) 
  #### 2. Clone the repo
- #### 3. Create **.env** file in api and client directory a fill it based on the following examples
+ #### 3. Create **.env** file in api and client directory and fill it based on the following examples
  
  Client
   ```bash
