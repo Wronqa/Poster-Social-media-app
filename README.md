@@ -19,6 +19,7 @@ Poster is a fully functional social media aplication.
    - Changing password
 - Followings list
    - View all followings
+- Responsive layout
 
 
 
@@ -117,7 +118,10 @@ Api
  ```bash
 node index
 ```
-   
+
+## Some screenshots
+
+
 
 
 
