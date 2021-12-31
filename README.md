@@ -122,7 +122,7 @@ node index
 ## Some screenshots
 
 ### Registration form
-[register](https://i.postimg.cc/7PtSpcPm/login.png)
+![register](https://i.postimg.cc/7PtSpcPm/login.png)
 
 
 
