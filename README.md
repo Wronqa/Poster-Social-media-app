@@ -3,11 +3,8 @@
 Poster is a fully functional social media aplication.
 
 ##### Table of Contents  
-[Headers](#headers)  
+[Features](#Features)  
 [Emphasis](#emphasis)  
-...snip...    
-<a name="Features"/>
-## Headers
 
 
 ## Features 
