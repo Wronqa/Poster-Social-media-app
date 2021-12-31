@@ -146,7 +146,7 @@ node index
 
 ![profile_two](https://i.postimg.cc/sxVb0CZJ/user-profile.png)
 
-### Profiles edit
+### Profile edit
 ![profile_edit](https://i.postimg.cc/G35BRLqV/profile-edit.png)
 
 ### Live users searching
