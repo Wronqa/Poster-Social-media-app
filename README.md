@@ -5,10 +5,10 @@ Poster is a fully functional social media aplication.
 
 
 ## Table of Contents  
-[Features](#Features)  
-[Technologies](#Technologies)  
-[Installation](#Installation)
-[Installation](#Installation)
+[Features](#Features)   
+[Technologies](#Technologies)   
+[Installation](#Installation)  
+[Screenshots](#Screenshots)  
 
 
 ## Features 
