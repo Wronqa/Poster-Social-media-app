@@ -142,7 +142,7 @@ node index
 ![timeline_comments](https://i.postimg.cc/rF5t96NH/all-friends.png)
 
 ### Profiles
-![profile_one](https://i.postimg.cc/wv5SVj3v/profile.png)
+![profile_one](https://i.postimg.cc/c4zd1Fqx/obraz.png)
 
 ![profile_two](https://i.postimg.cc/sxVb0CZJ/user-profile.png)
 
