@@ -153,8 +153,8 @@ node index
 ![searching](https://i.postimg.cc/3wx47kQM/searching.png)
 
 ### Mobile layout
-![mobile_timeline](https://i.postimg.cc/nhpMY02Y/mobile-timeline.png)
-![mobile_profile](https://i.postimg.cc/Wp8GkqTy/mobile-profile.png)
+![mobile_timeline](https://i.postimg.cc/sDjJfJYN/obraz.png)
+![mobile_profile](https://i.postimg.cc/L4N1DFPx/obraz.png)
 
 
    
