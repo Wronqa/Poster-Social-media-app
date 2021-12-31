@@ -129,7 +129,11 @@ node index
 
 ### Timeline
 ![timeline_dekstop](https://i.postimg.cc/DwZnwL0c/timeline.png)
-![timeline_mobile](https://i.postimg.cc/VkydS7yF/mobile-timeline.png)
+
+### Profiles
+![profile_one](https://i.postimg.cc/wv5SVj3v/profile.png)
+![profile_two](https://i.postimg.cc/sxVb0CZJ/user-profile.png)
+
 
 
 
