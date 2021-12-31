@@ -13,6 +13,7 @@ Poster is a fully functional social media aplication.
 
 
 
+
 ## Features 
  - Sharing posts (with emoticons also)
  - Sharing photos
