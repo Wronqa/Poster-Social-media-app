@@ -2,11 +2,15 @@
 
 Poster is a fully functional social media aplication.
 
+
+
 ## Table of Contents  
 [Features](#Features)  
 [Technologies](#Technologies)  
 [Installation](#Installation)
-[Some screenshots](#Some screenshots)
+[Screenshots](#Screenshots)
+
+
 
 
 ## Features 
@@ -125,7 +129,7 @@ Api
 node index
 ```
 
-## Some screenshots
+## Screenshots
 
 ### Registration form
 ![register](https://i.postimg.cc/8PFLDHjD/register.png)
