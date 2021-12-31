@@ -51,6 +51,7 @@ export const Profile = () => {
       isMounted = false
     }
   }, [
+    username,
     location.pathname,
     currentUser.username,
     currentUser.profilePicture,
@@ -72,7 +73,7 @@ export const Profile = () => {
     return () => {
       isMounted = false
     }
-  }, [user, currentUser.followings])
+  }, [user])
 
   const handleFollow = async () => {
     const res = await followActionCall(username, dispatch, currentUser)
@@ -108,7 +109,7 @@ export const Profile = () => {
                   right: '0',
                   margin: isMobile && 'auto',
                   width: `200px`,
-                  height: `200px`, ///Chyba mozesz przeniesc do stylwe
+                  height: `200px`,
                 }}
               >
                 <ProfilePicture size={'200px'} picture={user.profilePicture} />
