@@ -2,6 +2,13 @@
 
 Poster is a fully functional social media aplication.
 
+##### Table of Contents  
+[Headers](#headers)  
+[Emphasis](#emphasis)  
+...snip...    
+<a name="Features"/>
+## Headers
+
 
 ## Features 
  - Sharing posts (with emoticons also)
