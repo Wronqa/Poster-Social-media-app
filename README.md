@@ -72,8 +72,9 @@ The application uses JWT authentication system (access token and refresh token).
 
  ## Installation
  
- #### 1. Clone the repo
- #### 2. Create **.env** file in api and client directory a fill it based on the following examples
+ #### 1. Install Node.js [Setup Node](https://nodejs.org/en/) and GIT [Setup GIT](https://git-scm.com/) 
+ #### 2. Clone the repo
+ #### 3. Create **.env** file in api and client directory a fill it based on the following examples
  
  Client
   ```bash
@@ -97,11 +98,11 @@ CLOUDINARY_API_KEY =
 CLOUDINARY_API_SECRET = 
 ```
  
- #### 3. Enter the client directory and type 
+ #### 4. Enter the client directory and type 
  ```bash
 npm install
 ```
-#### 4. Enter the api directory and install all depedencies
+#### 5. Enter the api directory and install all depedencies
  ```bash
 npm install
 ```
