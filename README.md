@@ -73,7 +73,30 @@ The application uses JWT authentication system (access token and refresh token).
  ## Installation
  
  #### 1. Clone the repo
- #### 2. Create **.env** file in api and client directory a fill it based on **.env-example** file
+ #### 2. Create **.env** file in api and client directory a fill it based on the following examples
+ 
+ Client
+  ```bash
+REACT_APP_CLOUDINARY_NAME = 
+```
+
+Api 
+  ```bash
+DATABASE_URL = 
+
+SALT_ROUNDS = 
+
+JWT_SECRET_KEY = 
+JWT_REFRESH_SECRET_KEY = 
+JWT_ACCESS_TOKEN_EXPIRES_TIME = 
+JWT_REFRESH_TOKEN_EXPIRES_TIME = 
+
+
+CLOUDINARY_NAME = 
+CLOUDINARY_API_KEY = 
+CLOUDINARY_API_SECRET = 
+```
+ 
  #### 3. Enter the client directory and type 
  ```bash
 npm install
