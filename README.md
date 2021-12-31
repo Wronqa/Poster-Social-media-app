@@ -132,9 +132,9 @@ node index
 
 ### Profiles
 ![profile_one](https://i.postimg.cc/wv5SVj3v/profile.png)
+
 ![profile_two](https://i.postimg.cc/sxVb0CZJ/user-profile.png)
 
-
-
-
+### Profiles edit
+![profile_edit](https://i.postimg.cc/G35BRLqV/profile-edit.png)
    
