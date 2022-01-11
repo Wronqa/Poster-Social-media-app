@@ -137,7 +137,7 @@ node index
 
 ### Timeline
 ![timeline_dekstop_top](https://i.postimg.cc/DwZnwL0c/timeline.png)
-![timeline_dekstop_bottom](https://i.postimg.cc/DwZnwL0c/timeline.png)
+![timeline_dekstop_bottom](https://i.postimg.cc/zXkGBqjq/comments.png)
 
 
 ![timeline_comments](https://i.postimg.cc/rF5t96NH/all-friends.png)
