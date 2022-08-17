@@ -174,7 +174,7 @@ node index
 <br/>
 
 ### Mobile layout
-![mobile_timeline](https://i.postimg.cc/sDjJfJYN/obraz.png) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp;  
+![mobile_timeline](https://i.postimg.cc/sDjJfJYN/obraz.png) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 
 ![mobile_profile](https://i.postimg.cc/L4N1DFPx/obraz.png)
 
 
