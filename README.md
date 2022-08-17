@@ -132,32 +132,46 @@ node index
 ### Registration form
 ![register](https://i.postimg.cc/8PFLDHjD/register.png)
 
+<br/>
+<br/>
 
 ### Login form
 ![login](https://i.postimg.cc/7PtSpcPm/login.png)
 
+<br/>
+<br/>
 
 ### Timeline
 ![timeline_dekstop_top](https://i.postimg.cc/tggDCFmY/68747470733a2f2f692e706f7374696d672e63632f44775a6e774c30632f74696d656c696e652e706e67.png)
 
 ![timeline_comments](https://i.postimg.cc/rF5t96NH/all-friends.png)
 
+<br/>
+<br/>
 
 ### Profile
 ![profile_one](https://i.postimg.cc/c4zd1Fqx/obraz.png)
 
+<br/>
+<br/>
 
 ### Friends profile
 ![profile_two](https://i.postimg.cc/sxVb0CZJ/user-profile.png)
 
+<br/>
+<br/>
 
 ### Profile edit
 ![profile_edit](https://i.postimg.cc/G35BRLqV/profile-edit.png)
 
+<br/>
+<br/>
 
 ### Live users searching
 ![searching](https://i.postimg.cc/3wx47kQM/searching.png)
 
+<br/>
+<br/>
 
 ### Mobile layout
 ![mobile_timeline](https://i.postimg.cc/sDjJfJYN/obraz.png)
