@@ -136,9 +136,7 @@ node index
 ![login](https://i.postimg.cc/7PtSpcPm/login.png)
 
 ### Timeline
-![timeline_dekstop_top](https://i.postimg.cc/DwZnwL0c/timeline.png)
-![timeline_dekstop_bottom](https://i.postimg.cc/zXkGBqjq/comments.png)
-
+![timeline_dekstop_top](https://i.postimg.cc/tggDCFmY/68747470733a2f2f692e706f7374696d672e63632f44775a6e774c30632f74696d656c696e652e706e67.png)
 
 ![timeline_comments](https://i.postimg.cc/rF5t96NH/all-friends.png)
 
