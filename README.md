@@ -140,9 +140,10 @@ node index
 
 ![timeline_comments](https://i.postimg.cc/rF5t96NH/all-friends.png)
 
-### Profiles
+### Profile
 ![profile_one](https://i.postimg.cc/c4zd1Fqx/obraz.png)
 
+### Friends profile
 ![profile_two](https://i.postimg.cc/sxVb0CZJ/user-profile.png)
 
 ### Profile edit
